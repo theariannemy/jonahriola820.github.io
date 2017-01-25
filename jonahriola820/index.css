@@ -1,0 +1,58 @@
+body {
+    background-image: url("wall.jpg");
+}
+
+#aboutMe{
+	background-color: powderblue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border: 5px solid black;
+	padding: 50px;
+	width: 500px;
+}
+
+#nickname{
+	background-color: powderblue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border: 5px solid black;
+	width: 500px;
+	padding: 5px;
+}
+
+p{
+	font-size: 20px;
+	font-family: Georgia, serif;
+	text-align: left;
+}
+
+h1{
+	font-size: 50px;
+	font-style: oblique;
+	color: blue;
+	text-align: center;
+}
+
+img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+}
+
+img:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
